@@ -1,0 +1,616 @@
+<meta charset="utf-8">;
+
+<script>
+
+    function pula() {
+    	document.write("<br>");
+    }
+
+	function mostra(texto) {
+		document.write(texto);
+		pula()
+	}
+
+	function nada(x) {
+		document.write(x)
+	}
+    
+	var evento = Math.round(Math.random() * 1)
+
+    var evento2 = Math.round(Math.random() * 1)
+
+    var evento3 = Math.round(Math.random() * 10)
+
+    var nome = prompt("qual seu nome?")
+
+//----------------FINAL DE NOMES----------------------
+
+    if(nome == "samuel") {
+    	mostra("vc perdeu instantaneamente")
+    	mostra("Final: samuel gagãokkkkkkkkkk")
+    } else {
+    	if(nome == "sara"){
+    		mostra("sara te amo muito")
+    		mostra("Final: love amor eterno S2")
+    	} else {
+    	    alert(nome + ", vc ta com muita vontade de gagar, oq vc faz?")
+    	    
+
+//------------------RESPOSTA-----------------
+
+//------------------SIMPLES------------------
+        var valido = false;
+        while(!valido) {
+             var resposta = prompt("ações: cagar, peidar, etc. locais: banheiro, quarto, etc.")
+	if(resposta == "cagar") {
+        valido = true;
+		mostra("vc gagou na calça, tente tirar da proxima vez")
+		mostra("Final: CAGÃO")
+	} 
+
+//----------------------------------------------------
+
+	if(resposta == "peidar") {
+        valido = true;
+		mostra("vc peidou MUITO FORTE e gagou na calça")
+		mostra("Final: PEIDÃO")
+	} 
+
+//----------------------------------------------------
+
+	if(resposta == "segurar") { 
+        valido = true;
+			if(evento == 1) {
+				mostra("vc conseguiu segurar o tolete")
+				mostra("Final: Entupido")
+			} else {
+				mostra("vc segurou a bosta e morreu")
+	            mostra("Final: MORTE POR FEZES")
+			}
+		
+    } 
+
+//----------------------------------------------------
+
+    if(resposta == "CAGAR") {
+        valido = true;
+    	mostra("VC CAGOU MUITO FORTE EM CAPSLOCK!!!")
+    	mostra("Final: NÃO USE CAPSLOCK ANIMAL")
+    }
+
+//-----------------------------------------------------
+
+    if(resposta == "defecar") {
+        valido = true;
+    	mostra("Você evacuou com classe")
+    	mostra("Final: Elegante")
+    } 
+
+// ---------------------MATRIX-------------------------------
+
+ if(resposta == "acordar") {
+        valido = true;
+        var validoMatrix = false;
+        alert("A farsa da realidade perece diante de seus olhos. Você se encontra em um salão branco, em sua frente, dois botões.")
+while(!validoMatrix) {
+        
+                var botao = prompt("Retornar ou Cessar")
+
+    if(botao == "retornar") {
+        mostra("vc se ve novamente em seu local inicial, a vontade de cagar não passou, o looping eterno continua")
+        mostra("Final:Doce Ignorancia")
+        validoMatrix = true;
+    } 
+
+//-------------------------------------------------------
+
+    if(botao == "cessar") {
+        validoMatrix = true;
+        mostra("Você acaba com o looping, sua vontade de cagar some, você está livre.")
+        mostra("Final: Final")
+    } 
+
+//-------------------------------------------------------
+
+    if(botao == "cagar") {
+        mostra("Diante de toda a confusão, seu unico instinto é se esvaziar dentro do salão de todo o tempo, causando uma divergencia na linha temporal. Tanto poder como o seu não deveria existir, você se torna luz.")
+        mostra("Final: deus")
+    } 
+     
+    }// Fecha while MATRIX
+}// Fecha if MATRIX
+//---------------------CIVILIZAÇÃO----------------------
+
+    if(resposta == "esperar") {
+        valido = true;
+    	
+        var validoCivilizacao = false;
+
+     while(!validoCivilizacao) {
+        var bostaCtrl = prompt("vc esperou tanto q suas fezes criaram consciencia e desenvolveram uma civilização dentro de seu orifiocio, eles exigem q vc tome um yakult. aceitar ou recusar?")
+             if(bostaCtrl == "recusar") {
+                validoCivilizacao = true;
+                mostra("vc se recusa a colaborar com as fezes, de repente, vc sente um calor infernal no anus. vc morre agonizando e de cu quente")
+                mostra("Final: Anarquia")
+            } 
+
+//--------------------------------------------------------
+
+    if(bostaCtrl == "aceitar") {
+        validoCivilizacao = true;
+        mostra("vc perde o controle de seu corpo, milhares de cidadões fecais saem de seus orificios em sua jornada para colonização universal")
+        mostra("Final: Civilização")
+            } 
+        } // Fecha while CIVILIZACAO
+    } // Fecha if CIVILIZACAO
+
+//------------------TIRAR CALÇA-----------------------
+
+if(resposta == "tirar calça") {
+        valido = true;
+        var validoSemCalça = false;
+        while(!validoSemCalça){
+        var respostaCalça = prompt("vc tirou sua calça, e agora?")
+
+//-----------------------------------------------------
+
+    if(respostaCalça == "cagar") {
+        validoSemCalça = true
+        mostra("vc cagou no chão")
+        mostra("Final: Animal")
+    } 
+
+//------------------------------------------------------
+
+    if(respostaCalça == "sair") {
+        validoSemCalça = true
+        mostra("vc foi preso por atentado ao pudor")
+        mostra("Final: Tarado")
+    } 
+ } //Fecha while CALÇA
+} // Fecha if CALÇA
+
+//----------------------BANHEIRO-----------------------
+
+
+    if(resposta == "banheiro") { 
+        valido = true;
+        var validoBanheiro = false;
+        while(!validoBanheiro) {
+        var respostaBan = prompt("vc entra no banheiro, e agora?")
+
+        //------------------------------------------------------
+
+    if(respostaBan == "cagar") {
+        validoBanheiro = true
+        mostra("vc cagou na calça dentro do banheiro, da proxima vez vai na PRIVADA")
+        mostra("Final: BURRÃO")
+    } 
+//------------------BANHEIRO SEM CALÇA--------------------
+
+    if(respostaBan == "tirar calça") {
+        validoBanheiro = true;
+        var validoBanheiroSC = false
+        while(!validoBanheiroSC) {
+        var respostaBanCalça = prompt("vc tirou a calça dentro do banheiro, e agora?")
+
+         if(respostaBanCalça == "cagar"){
+            validoBanheiroSC = true;
+        mostra("vc cagou no chão do banheiro")
+        mostra("Final: Ingovernavel")
+    } 
+
+//--------------------------------------------------------
+
+    if(respostaBanCalça == "privada") {
+        validoBanheiroSC = true
+        
+        var validoPrivada = false;
+        while(!validoPrivada) {
+            var respostaPri = prompt("vc sentou na privada, e agora?")
+             if(respostaPri == "cagar"){
+                validoPrivada = true
+        mostra("<h1> VC CAGOU NA PRIVADA </h1>")
+        mostra("PARABENS, " + nome)
+        mostra("Final: FINAL BOM")
+    }
+
+//-------------------------ASCENDER-----------------------
+
+    if(respostaPri == "ascender") {
+        validoPrivada = true
+        alert("N̴̡̡̧̡͇̖͕͇͓͎͇̝̖͔͇̱̯̺̼̻̣̬͉̦̯̙͇̪̗̎͌́͗͘Ã̶̧̻͊͂̇̆̀͂͌̋̀̋̒̚͝Ỏ̸̝̝͐ ̶̢̬͍͖̰̜̰̠͖̟̩̱̭̺̮̈́́́̊̒̆̉́̔̈́̇̽̅̌̎̎͘͘͠N̶̩̗͖̞̐͐̈̇̓̈́͗̇̔̐͌͋̃͂͂̓̇͘͘͝͝Ã̶̡̢̳͔̺̭͎̲̤̔͌͋̑̈̓͆͑̐͌̂̐̑̀͂̍̉̈́̒́̇́̕͝Ó̴̧̥͔̤̗͓̫̯͎̗̪͓͍̘̥̞̻̘̔̀͌̈́ ̸̣̩̝̣̑̐̈́̈̈́̈́́͒͌̈̐̾̽̊́͋͑͆́̾̌͐͊́̚̕N̶̡̝̠͓͖̥̫̖̱͖̤̖̣̱̘͎͗̉̃̈́́̎̉Ą̵̡̡̨̻̻̗̘̗̘̹͎͕̼͕͖̼̫͇̰͇͓̙̃͛̈́͜O̶̧̢̧̢̢̜͉̮͔̰̗͓̯̫̻̦̱̩̥͍̗͌͛͜ͅ ̴̧͉̖̟̰͇͓̻̗̠͈̹̰͕̋͌̏̎̍̾̌͛̏͂̒̓̚͝͠ͅN̸̨͇͙͓̲̥̻͂̇̔̅͑͐̂͋̒͑͂͐̑̐̌̕̕͠Ã̷̲̂̍͐͑̈́̎̽̈́͐͐͐̈́̾͝͠͠Ö̵̠̹͔̞̖̰ͅ ̴̛̪̫̪͔̫̲͓̈́̎͆̽̂̍̈́͆̇̍́̑́̌͋̀̍͝͝ͅN̶͔̘̫̠̖͓̺̆̏͋͂̍̒̊̿̇͆Ã̴̲̠̬͖̻̞̰̹͚̲͚͓̥̤̟͎̤̤̲͓̞̲̖͍͋̊́͒̋͐̊̓͊̐̉̽̈́͘͜O̷̢͙̱̮̞̙͈̝̬͙͈͍̬̰̜̺̤̦̭͎̯͌̒̓͂͘͜ ̵̛̱̞̜̼̲̙̂̾͌͑͛̏̎̐̋̈́̿͊̊̒͋̈́͆̍̀͛̎̈́́͘͜N̴̡̩̮̜͇̝̬̮̯͔̟̘̤̒̆̽̅̽͐͌̇́̋̌̀̂͗͑̈̊͑̐́́̍́́̚͠͝Ã̴̧̰̱̺̩̤͕̗̻̜͉̠̩̠̱̳͕̼̜̘͎̺͔͍͖̹̀́̂̒͑̓̇͜͜͝͠Ǫ̴̢̘͓͈͚̺͓͇̦͙̺̞̔̈̐́̀̄̋͒̀̐͊̈̐̅͗̀̾͊͌͌͐͒̅̕͝͝ ̸̮̜̬͈͕̠̅͗̐̈́̽̈́̂̐̏̋̑̀͐̐͐̐̾͋̀͛͑̋̆̍̈́͜͠͝͝͝N̷̩͓̩͇̙̥͍̮̭̗̪̯̞̘̤̰̓͐̐̋̇̅̆̎̌̓̅͛̀͜Ã̴̧̧̡̛̛̝͎͚̰̪̩͙̭̥̠̗̟̘̒͌̉̃̂̂̍͆͗͆͌͗͑̿̓ͅO̸͍̣͍̟͔̝͖̭̅̾̈́́̎̉̈́͐̍̕̚̚̚͘͜ ̴̧̧͖̫̯͉̼̺̠͚̻͉̰̻̘̮̤͍̙͉̝̼̹̖̰͊̈́͑̈͊̌̾͋͋́̄͜͜͠ͅN̵̢̧̨͕̳͖̘̥͔̜͈̿͋̌͗͂̄͊͆̃̌̀̌̍̉͆͋̑́̒̅̍̄̀͘͜͜͝͝Ã̸̧̢̨̪̩͕̰̮̺̻̜̫̞̞̦̹͑͗̂̾͂̂͂́̌̃̕͝O̸̢͔̤̟͉͓͍̰̦̬̘̞̯̠̦̙̝̭̿̽̓͌̇̽̈́̏͋̾̈́͆̈́̾̂̈́́͛͗̈́̏͂̚͝͝ͅ ̷̧̞͙̘̯̪͈̱̜̠͍̤̤̺̞̰̼̺̤̙͔̈͗̌́̉̐̃̕͜͝͝Ņ̴̯̬͙̱͂̎̍̄͊̎͗̋̉̏̀͐̂̕͝Ã̷̘̣͍̰̈͐͆̓͛̍͂̿̋͐͒̓̇̚Ǫ̵̢̨͙̻̰̟͖̺̥̫͈̪͉͙̙̱͎̬͈̟͕͜͝ͅ")
+       
+
+        var validoOrac = false;
+        while(!validoOrac) {
+             var respostaOrac = prompt("O oráculo lhe pergunta se você prefere cagar mole ou peidar duro, o que você prefere?")
+               if(respostaOrac == "cagar mole") {
+        validoOrac = true;
+        mostra("Você ascendeu " + nome)
+        mostra("Final: True Ending")
+    } 
+//-------------------------------------------------------
+
+    if(respostaOrac == "peidar duro") {
+        validoOrac = true
+        mostra("Você foi expurgado pro limbo")
+        mostra("Final: Sofrimento Eterno")
+    }
+//-------------------------------------------------------
+
+    if(respostaOrac == "cagar") {
+        validoOrac = true
+        mostra("Você defeca na frente do oráculo, ele se espanta diante de tamanha ousadia. Não compreendendo suas ações, o oráculo implanta um número em sua mente")
+        mostra("Final: 05012004")
+    }
+            } // Fecha ORACULO
+            } 
+        } // Fecha while PRIVADA
+        } 
+    } // Fecha while BANHEIROSC
+    } 
+
+//-------------------BANHEIRO COM CALÇA------------------
+
+    if(respostaBan == "privada") {
+        validoBanheiro = true;
+        var validoPriCal = false;
+        while(!validoPriCal) {
+            var respostaPriCal = prompt("vc sentou no privada, e agora?")
+     
+
+//-----------------------------------------------------
+
+    if(respostaPriCal == "cagar") {
+        validoPriCal = true
+        mostra("vc cagou na calça sentado, pelo amor de deus")
+        mostra("Final: QUASE")
+    } 
+    } // Fecha PRICAL
+    } //        
+} //Fecha while BANHEIRO
+} 
+//------------------QUARTO-------------------------------
+
+
+    if(resposta == "quarto") {
+        valido = true;
+        var validoQuarto = false
+        while(!validoQuarto) {
+           var quarto = prompt("vc entra no quarto, e agora?") 
+
+//------------------------------------------------------
+
+    if(quarto == "cagar") {
+        validoQuarto = true;
+        mostra("vc cagou no calça dentro do quarto, uaaauu")
+        mostra("Final: Criatividade")
+    } 
+
+//-------------------------------------------------------
+
+    if(quarto == "dormir") {
+        validoQuarto = true;
+        mostra("vc dorme, no dia seguinte voce acorda todo cagado")
+        mostra("Final: Bebê")
+    } 
+
+//-------------------------------------------------------
+
+    if(quarto == "computador") {
+        validoQuarto = true;
+        mostra("vc começa a jogar e fica o dia inteiro no computador. Voce se caga todo na sua cadeira gamer")
+        mostra("Final: True Gamer")
+    }     
+
+//------------------------------------------------------
+
+    if(quarto == "tirar calça") {
+        validoQuarto = true;
+        var validoQuartoC = false;
+        while(!validoQuartoC) {
+            var quartoCalça = prompt("vc tirou a calça dentro do quarto, e agora");
+             if(quartoCalça == "cagar") {
+                mostra("voce cagou no chão do quarto")
+                mostra("Final: Sem Graça")
+    } 
+
+
+//-------------------------------------------------------
+
+    if(quartoCalça == "dormir") {
+        mostra("vc dormiu sem calça e acordou sem suas bolas")
+        mostra("Final: Come-bola")
+    } 
+}// FechaQUARTOC
+} 
+
+} // Fecha QUARTO        
+} 
+
+// ---------------------------------------------------------------
+
+ if(resposta == "sair") {
+        valido = true;
+        var validoSair = false; 
+        while(!validoSair) {
+            var respostaSai = prompt("vc sai de casa, e agora?")
+
+//------------------------------------------------------
+   
+    if(respostaSai == "tirar calça") {
+        validoSair = true;
+        mostra("vc foi preso por atentado ao pudor")
+        mostra("Final: Tarado")
+    }
+
+//------------------------VIZINHO-----------------------
+
+    if(respostaSai == "cagar") {
+        validoSair = true;
+        alert("antes q vc pudesse se aliviar vc é interrompido por seu vizinho")
+
+        var validoVizinho = false;
+        while(!validoVizinho) {
+            var respostaViz = prompt("falar ou cagar?")
+
+//-------------------------------------------------------
+
+    if(respostaViz == "cagar") {
+        validoVizinho = true;
+        mostra("vc cagou na calça na frente de seu vizinho")
+        mostra("Final: Despreocupado")
+    } 
+
+//-------------------------------------------------------
+
+    if(respostaViz == "falar") {
+        validoVizinho = true;
+        alert("seu vizinho diz q tem um esquema pra ficar rico rapido e quer que vc o siga")
+
+        var validoVizinho2 = false;
+        while(!validoVizinho2) {
+          var respostaViz2 = prompt("aceitar ou recusar")  
+
+//-------------------------------------------------------
+
+    if(respostaViz2 == "recusar") {
+        validoVizinho2 = true/
+        mostra("vc recusou todo o evento com o vizinho")
+        mostra("Final: Vergonha")
+    } 
+
+//-------------------------------------------------------
+
+    if(respostaViz2 == "aceitar") {
+        validoVizinho2 = true;
+        alert("vc segue seu vizinho até um beco, ele te mostra 27 kilos de cocaina e pergunta se vc ta dentro")
+
+        var validoVizinho3 = false
+        while(!validoVizinho3) {
+            var respostaViz3 = prompt("sim ou nao?")
+
+//--------------------------------------------------------
+
+    if(respostaViz3 == "nao") {
+        validoVizinho3 = true;
+        mostra("seu vizinho te da um tiro na caixola, voce sabia demais. Seu corpo se livra de todo os detritos fecais durante sua morte")
+        mostra("Final: cagada em paz")
+    } 
+
+//--------------------------------------------------------
+
+    if(respostaViz3 == "sim") {
+        validoVizinho3 = true;
+        alert("voce aceita, mas antes q pudesse falar qualquer outra coisa, voce ouve sirenes cercando o beco. Nesse momento teu vizinho bota uma glock na sua mão, oq vc faz?")
+
+        var validoVizinho4 = false;
+        while(!validoVizinho4) {
+            var respostaViz4 = prompt("ficar ou fugir?")
+
+//--------------------------------------------------------
+
+    if(respostaViz4 == "fugir") {
+        validoVizinho4 = true
+        mostra("vc tenta correr, mas antes de chegar na entrada do beco, vc é cravejado por 267 balas de AR-15")
+        mostra("Final: Breiquin Bédi")
+    } 
+//-------------------------------------------------------
+
+    if(respostaViz4 == "ficar") {
+        validoVizinho4 = true;
+        alert("voce e seu vizinho tomam cobertura, o tiroteio começa. Seu vizinho mata a maioria, porém é atingido pelo ultimo dos agentes. Vc tem q mata-lo")
+        var validoAtirar = false;
+        while(!validoAtirar) {
+        var atirar = prompt("ATIRAR") 
+        if(atirar == "atirar") {
+           if(evento == 1) {
+            validoAtirar = true;
+                mostra("vc acerta a cabeça do agente, seu vizinho morre em seus braços. Vc pega os 27 kilo de cocaina e foge pra fronteira")
+                mostra("seu império cresce tanto q vc pode comprar uma privada de ouro pra cagar com luxo")
+                mostra("Final: Procurado")
+             } else {
+                validoAtirar = true;
+                alert("vc erra o tiro, seu vizinho morre na sua frente enquanto você é preso, sua sentença é de 50 anos")
+                var validoPrisao = false
+                while(!validoPrisao) {
+                    var prisao = prompt("dentro de sua cela vc ve sua privada suja, vc sabe oq deve fazer")
+                if(prisao == "cagar") {
+                    validoPrisao = true;
+                    mostra("depois de tanta ação vc finalmente pode se aliviar")
+                    mostra("Final: Criminoso")
+                }
+
+                }
+                
+            }
+        }
+                } // Fecha FICAR 
+                }
+            } // Fecha VIZINHO4 
+            }             
+        } //Fecha VIZINHO3
+        } 
+    } // Fecha VIZINHO2
+    }
+
+} // Fecha SAIR
+} 
+} // Fecha VIZINHO
+} 
+
+// ---------------------------------------------------------------
+
+ if(resposta == "05012004") {
+        valido = true;
+        alert("")
+        alert("")
+        alert("")
+        alert("")
+        alert("")
+        alert("")
+        alert("")
+        alert("")
+        alert("")
+        alert("")
+        alert("")
+        alert("")
+        alert("")
+        alert("")
+        alert("")
+        alert("")
+        alert("")
+        alert("")
+        var segredo = prompt("")
+    } // Fecha RESPOSTA
+}
+
+} }
+// --------------------------------------------------------------
+
+
+
+//-----------------------SAIR--------------------------
+
+   
+
+
+//-----------------------SEGREDO--------------------------
+
+   
+
+//--------------------------------------------------------
+
+    if(segredo == "") {
+        mostra("ERRO")
+        mostra("ERRO")
+        mostra("ERRO")
+        mostra("ERRO")
+        mostra("ERRO")
+        mostra("ERRO")
+        mostra("ERRO")
+        mostra("ERRO")
+        mostra("ERRO")
+        mostra("ERRO")
+        mostra("ERRO")
+        mostra("ERRO")
+        mostra("ERRO")
+        mostra("ERRO")
+        mostra("ERRO")
+        mostra("ERRO")
+        mostra("ERRO")
+        mostra("ERRO")
+        mostra("ERRO")
+        mostra("ERRO")
+        mostra("ERRO")
+        mostra("ERRO")
+        mostra("ERRO")
+        mostra("ERRO")
+        mostra("ERRO")
+        mostra("ERRO")
+        mostra("ERRO")
+        mostra("ERRO")
+        mostra("ERRO")
+        mostra("ERRO")
+        mostra("ERRO")
+        mostra("ERRO")
+        mostra("ERRO")
+        mostra("ERRO")
+        mostra("ERRO")
+        mostra("ERRO")
+        mostra("ERRO")
+        mostra("ERRO")
+        mostra("ERRO")
+        mostra("ERRO")
+        mostra("ERRO")
+        mostra("ERRO")
+        mostra("ERRO")
+        mostra("ERRO")
+        mostra("ERRO")
+        mostra("ERRO")
+        mostra("ERRO")
+        mostra("ERRO")
+        mostra("ERRO")
+        mostra("ERRO")
+        mostra("ERRO")
+        mostra("ERRO")
+        mostra("ERRO")
+        mostra("ERRO")
+    } else {
+        nada("")
+    }
+
+//--------------------------------------------------------
+
+    if(segredo = "cagar") {
+        if(evento3 == 10) {
+           mostra("")
+           mostra("era pra ser um final com um link mas nao consegui colocar o linkkkk")
+        } else {
+            mostra("")
+            mostra("")
+            mostra("")
+            mostra("")
+            mostra("")
+            mostra("")
+            mostra("")
+            mostra("")
+            mostra("")
+            mostra("")
+            mostra("")
+            mostra("")
+            mostra("")
+            mostra("")
+            mostra("")
+            mostra("")
+            mostra("")
+            mostra("")
+            mostra("")
+            mostra("")
+            mostra("")
+            mostra("")
+            mostra("")
+            mostra("")
+            mostra("")
+            mostra("")
+            mostra("")
+            mostra("")
+            mostra("")
+            mostra("")
+            mostra("")
+            mostra("")
+            mostra("")
+            mostra("")
+            mostra("")
+            mostra("")
+            mostra("")
+            mostra("")
+            mostra("")
+            mostra(evento3 + "/10")
+        }
+    } else {
+        nada("")
+    }
+
+</script>
